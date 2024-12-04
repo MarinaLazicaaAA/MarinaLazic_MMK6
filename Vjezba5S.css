@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* css document */
+
+/* FONTFORGEOVI */
+@font-face {
+    font-family: 'Pixel';
+    src: url('fontovi/PixelifySans-VariableFont_wght.ttf');
+    font-weight: 800;
+    font-style: bold;
+}
+
+body {
+    
+    background-image: url('slke/pozz.webp');
+	background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+
+
+.zg1, .zg2, .pod, .zg3, .zg4 {
+    position: absolute;
+    bottom: 0;
+	border: 2px solid black;
+}
+
+.zg1, .zg4 {
+    background: linear-gradient(#040611, #333969);
+}
+
+.zg1 {
+    width: 300px;
+    height: 500px;
+    left: 0;
+}
+
+.zg11 {
+    width: 270px;
+    height: 480px;
+    position: absolute;
+    background: linear-gradient(#040611, #4a4b9a);
+    left: 0;
+    bottom: 0;
+}
+
+.zg1_prozor1, .zg1_prozor2, .zg1_prozor3, .zg1_prozor4 {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background: radial-gradient(#e312ff, #c63d8f);
+}
+
+.zg1_prozor1, .zg1_prozor2 {
+    top: 50px;
+}
+
+.zg1_prozor1, .zg1_prozor3 {
+    left: 20px;       
+}
+
+.zg1_prozor2, .zg1_prozor4 {
+    left: 150px;
+}
+
+.zg1_prozor3, .zg1_prozor4 {
+    top: 200px;
+}
+
+.zg1_prozor1, .zg1_prozor4 {
+	text-align: center; 
+    color: white;                    
+    font-size: 40px;                 
+    font-weight: bold;  
+	font-family: 'Pixel';
+    display: inline-block;           
+    vertical-align: middle; 	
+}
+
+.zg1_prozor1 {
+	cursor:pointer;
+}
+
+.pod {
+    width: 650px;
+    height: 100px;
+    background: linear-gradient(#594483, #725cbc);
+    left: 300px;
+}
+
+.zg2 {
+    width: 650px;
+    height: 250px;
+    background: linear-gradient(#a552ad, #c53e90);
+    left: 300px;
+    bottom: 100px;
+    text-align: center; 
+    color: white;                    
+    font-size: 80px;                 
+    font-weight: bold;  
+	font-family: 'Pixel';
+    display: inline-block;           
+    vertical-align: middle;          
+    line-height: 250px;             
+    padding: 20px; 
+}
+
+
+.zg3_prozor1, .zg3_prozor2, .zg3_prozor3 {
+    position: absolute; 
+    width: 85px;
+    height: 150px;
+    background: radial-gradient(#59b0d4, #1f9bc2);
+    text-align: center; 
+    color: white;                    
+    font-size: 40px;                 
+    font-weight: bold;  
+    font-family: 'Pixel';
+    display: inline-block;           
+    vertical-align: middle; 
+}
+
+.zg3_prozor1 {
+    top: 50px;
+    left: 90px;
+}
+
+.zg3_prozor2 {
+    top: 230px;
+    left: 90px;
+}
+
+.zg3_prozor3 {
+    top: 410px;
+    left: 90px;
+}
+
+
+.zg1_prozor1, .zg1_prozor2, .zg1_prozor3, .zg1_prozor4, .zg3_prozor1, .zg3_prozor2, .zg3_prozor3 {
+	border: 2px solid black;
+}
+
+
+.zg1_prozor1, .zg1_prozor4 {
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    background: radial-gradient(#c63d8f, #e312ff); 
+}
+
+.zg3_prozor1, .zg3_prozor3 {
+	cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+	background: radial-gradient(#59b0d4, #1f9bc2);	
+}
+
+.zg1_prozor1:hover, .zg1_prozor4:hover, .zg3_prozor1:hover, .zg3_prozor3:hover {
+    transform: scale(1.1); 
+    background: radial-gradient(#e5adeb, #d5a4e4);
+}
+
+
+.zg3 {
+    width: 266px;
+    height: 600px;
+    background: radial-gradient(#3b3980, #1a1738);
+    left: 950px;
+}
+
+.zg4 {
+    width: 320px;
+    height: 300px;
+    right: 0;
+}
+
+.zg44 {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    background: linear-gradient(to right, #040611, #4a4b9a);
+    right: 0;
+}
+
+.ograda {
+    width: auto;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid black; 
+	position: absolute; 
+    left: 302px; 
+    bottom: 0;
+}
+
+.ograda tbody td {
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+
+.opis, .github, .vjezba {
+    width: 200px;
+    height: 70px;
+    background: rgba(56, 104, 185, 0.8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    border: 1px solid black;
+	font-family: 'Pixel';
+	float: left;
+}
+
+
+.vjezba {
+    clear: both;
+}
+
+.bob {
+	width: auto;
+	height:200px;
+	position: relative;
+	right: -20px;
+	top: 30px;
+}
+
+.misec {
+	width: auto;
+	height: 100px;
+	position: relative;
+	left: 1000px;
+	top: 20px;
+}
+
+.greg {
+    width: auto;
+    height: 120px;
+    position: absolute;
+    bottom: 20px; 
+    left: 25px; 
+}
